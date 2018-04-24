@@ -22,9 +22,8 @@ public class DINE {
 		shell.setText("IM");
 		shell.setLayout(null);
 		
-						
-		
-		
+		System.out.println("syspath: " + System.getProperty("java.library.path")); 
+	
 		//content
 		new Content().run(shell);
 		

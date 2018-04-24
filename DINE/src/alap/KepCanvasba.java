@@ -20,7 +20,7 @@ public class KepCanvasba {
 				if(files.size()>0) {			
 					pngkepPath = files.get(sel).replace("\\", "\\\\");
 				} else {
-					pngkepPath = "c:\\Users\\nemeth1davi520\\eclipse-workspace\\Kep2\\src\\default-phone0.png";
+					pngkepPath = "c:\\Users\\nemeth1davi520\\git\\DINE\\DINE\\src\\alap\\default-phone0.png";
 				}
 				
 				Image pngkep = new Image(Display.getDefault(), pngkepPath);
